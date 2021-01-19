@@ -19,5 +19,5 @@ function isPrime(n){
         }
         return 'prime';
 }
-let result = isPrime(78);
+let result = isPrime(4);
 console.log(result);
