@@ -13,11 +13,11 @@ for(let i = 1; i <= 10; i++){
 function facttorial(num){
     let factorial = 1;
     for(let i = 1; i <= num; i++){
-        factorial = factorial * i
+        factorial = factorial * i;
         console.log(factorial);
     
     } 
     return factorial;
 }
-let result = facttorial(10);
+let result = facttorial(300);
 console.log(result);
